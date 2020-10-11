@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/detleapi/detleapi.iml" filepath="$PROJECT_DIR$/detleapi/detleapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/detlecloud.iml" filepath="$PROJECT_DIR$/detlecloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/detlecosumer/detlecosumer.iml" filepath="$PROJECT_DIR$/detlecosumer/detlecosumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/detleprovid/detleprovid.iml" filepath="$PROJECT_DIR$/detleprovid/detleprovid.iml" />
+    </modules>
+  </component>
+</project>
