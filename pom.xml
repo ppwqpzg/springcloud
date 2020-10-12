@@ -22,6 +22,8 @@
 		<module> detleapi</module>
 		<module>detleprovid</module>
 		<module>detlecosumer</module>
+		<module>detlesecurity</module>
+		<module>detleeureka</module>
 
 	</modules>
 
@@ -80,6 +82,11 @@
 			<dependency>
 				<groupId>com.pzg.springcloud</groupId>
 				<artifactId>detleapi</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.pzg.springcloud</groupId>
+				<artifactId>detlesecurity</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 

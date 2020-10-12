@@ -8,15 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="detleapi" />
+        <module name="detleeureka" />
         <module name="detlecosumer" />
         <module name="detleprovid" />
+        <module name="detlesecurity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="detleapi" target="1.8" />
       <module name="detlecloud" target="1.8" />
       <module name="detlecosumer" target="1.8" />
+      <module name="detleeureka" target="1.8" />
       <module name="detleprovid" target="1.8" />
+      <module name="detlesecurity" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

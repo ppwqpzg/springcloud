@@ -20,6 +20,10 @@
             <groupId>com.pzg.springcloud</groupId>
             <artifactId>detleapi</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.pzg.springcloud</groupId>
+            <artifactId>detlesecurity</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>mysql</groupId>
@@ -51,6 +55,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
     </dependencies>

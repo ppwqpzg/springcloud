@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/detleapi/detleapi.iml" filepath="$PROJECT_DIR$/detleapi/detleapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/detlecloud.iml" filepath="$PROJECT_DIR$/detlecloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/detlecosumer/detlecosumer.iml" filepath="$PROJECT_DIR$/detlecosumer/detlecosumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/detleeureka/detleeureka.iml" filepath="$PROJECT_DIR$/detleeureka/detleeureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/detleprovid/detleprovid.iml" filepath="$PROJECT_DIR$/detleprovid/detleprovid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/detlesecurity/detlesecurity.iml" filepath="$PROJECT_DIR$/detlesecurity/detlesecurity.iml" />
     </modules>
   </component>
 </project>
