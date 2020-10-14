@@ -22,9 +22,11 @@
 		<module> detleapi</module>
 		<module>detleprovid</module>
 		<module>detlecosumer</module>
+		<module>detlecosumer2</module>
 		<module>detlesecurity</module>
 		<module>detleeureka</module>
-
+		<module>detleeureka2</module>
+		<module>detleeureka3</module>
 	</modules>
 
 	<!-- 会实际下载jar包,子项目会继承这些依赖  -->

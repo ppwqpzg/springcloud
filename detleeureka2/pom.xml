@@ -9,8 +9,8 @@
 </parent>
 <modelVersion>4.0.0</modelVersion>
 
-<artifactId>detleeureka</artifactId>
-<name>detleeureka</name>
+<artifactId>detleeureka2</artifactId>
+<name>detleeureka2</name>
 
 <dependencies>
     <dependency>

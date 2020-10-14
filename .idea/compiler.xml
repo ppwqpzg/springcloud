@@ -9,6 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="detleapi" />
         <module name="detleeureka" />
+        <module name="detleeureka3" />
+        <module name="detleeureka2" />
+        <module name="detlecosumer2" />
         <module name="detlecosumer" />
         <module name="detleprovid" />
         <module name="detlesecurity" />
@@ -18,7 +21,10 @@
       <module name="detleapi" target="1.8" />
       <module name="detlecloud" target="1.8" />
       <module name="detlecosumer" target="1.8" />
+      <module name="detlecosumer2" target="1.8" />
       <module name="detleeureka" target="1.8" />
+      <module name="detleeureka2" target="1.8" />
+      <module name="detleeureka3" target="1.8" />
       <module name="detleprovid" target="1.8" />
       <module name="detlesecurity" target="1.8" />
     </bytecodeTargetLevel>
