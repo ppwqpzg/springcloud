@@ -21,6 +21,8 @@
 	<modules>
 		<module> detleapi</module>
 		<module>detleprovid</module>
+		<module>detleprovid2</module>
+		<module>detleprovid3</module>
 		<module>detlecosumer</module>
 		<module>detlecosumer2</module>
 		<module>detlesecurity</module>

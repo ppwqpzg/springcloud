@@ -1,6 +1,7 @@
 package com.pzg.springcloud.app.config;
 
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
@@ -11,7 +12,9 @@ import java.util.Base64;
 
 @Configuration
 public class AppConfig {
+    //spring容器托管 “restimeplate”  RestTemplate对象
     @Bean
+    @LoadBalanced  //加入负载均衡 此处的负载均衡是全局配置(针对当前的微服务)
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
