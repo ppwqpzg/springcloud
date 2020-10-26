@@ -1,6 +1,7 @@
 package com.pzg.springcloud.app.config;
 
 
+import com.netflix.loadbalancer.IRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +19,8 @@ public class AppConfig {
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
+
+
     @Bean
     public HttpHeaders getHeaders(){
         HttpHeaders headers=new HttpHeaders();
@@ -27,4 +30,9 @@ public class AppConfig {
         headers.set("Authorization",authHeader);    //    Http请求头         Authorization: Base xxxxxxxxx
         return headers;
     }
+    //这个会由spring托管，则这个消费端的微服务都会采用这种负载均衡
+    //@Bean
+    //public IRule ribbonRule(){
+        //return new com.netflix.loadbalancer.RandomRule();
+    //}
 }
